@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: Heart-Disease-Prediction
+Version: 0.0.1
+Author: Het Shah
+Author-email: shahheta1973@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: plotly
+Requires-Dist: scikit-learn
+Requires-Dist: xgboost
+Requires-Dist: catboost
+Requires-Dist: dill
+Requires-Dist: streamlit
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

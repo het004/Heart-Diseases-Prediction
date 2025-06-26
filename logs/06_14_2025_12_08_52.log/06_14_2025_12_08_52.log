@@ -1,0 +1,14 @@
+[ 2025-06-14 12:08:56,943 ] 23 root - INFO - Entered the data ingestion method or component
+[ 2025-06-14 12:08:57,004 ] 26 root - INFO - Read the dataset as dataframe
+[ 2025-06-14 12:08:57,240 ] 30 root - INFO - Train Test Split initiated
+[ 2025-06-14 12:08:57,458 ] 35 root - INFO - Ingestion of data is completed
+[ 2025-06-14 12:08:57,555 ] 95 root - INFO - Read train and test data
+[ 2025-06-14 12:08:57,556 ] 98 root - INFO - Obtaining preprocessing object
+[ 2025-06-14 12:08:57,556 ] 64 root - INFO - Numerical columns scaling completed
+[ 2025-06-14 12:08:57,556 ] 65 root - INFO - Categorical columns encoding and scaling completed
+[ 2025-06-14 12:08:57,565 ] 124 root - INFO - Applying preprocessing object on training and testing datasets
+[ 2025-06-14 12:08:57,667 ] 129 root - INFO - Encoding target variable
+[ 2025-06-14 12:08:57,672 ] 143 root - INFO - Saved preprocessing object
+[ 2025-06-14 12:08:57,674 ] 150 root - INFO - Saved target encoder
+[ 2025-06-14 12:08:57,676 ] 51 root - INFO - Preprocessor saved at: artifacts\preprocessor.pkl
+[ 2025-06-14 12:08:57,677 ] 52 root - INFO - Target encoder saved at: artifacts\target_encoder.pkl

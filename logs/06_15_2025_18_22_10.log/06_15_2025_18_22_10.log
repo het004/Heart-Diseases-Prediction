@@ -1,0 +1,31 @@
+[ 2025-06-15 18:22:14,353 ] 25 root - INFO - Entered the data ingestion method or component
+[ 2025-06-15 18:22:14,421 ] 28 root - INFO - Read the dataset as dataframe
+[ 2025-06-15 18:22:14,622 ] 32 root - INFO - Train Test Split initiated
+[ 2025-06-15 18:22:14,879 ] 37 root - INFO - Ingestion of data is completed
+[ 2025-06-15 18:22:15,087 ] 95 root - INFO - Read train and test data
+[ 2025-06-15 18:22:15,088 ] 98 root - INFO - Obtaining preprocessing object
+[ 2025-06-15 18:22:15,088 ] 64 root - INFO - Numerical columns scaling completed
+[ 2025-06-15 18:22:15,088 ] 65 root - INFO - Categorical columns encoding and scaling completed
+[ 2025-06-15 18:22:15,094 ] 124 root - INFO - Applying preprocessing object on training and testing datasets
+[ 2025-06-15 18:22:15,219 ] 129 root - INFO - Encoding target variable
+[ 2025-06-15 18:22:15,224 ] 143 root - INFO - Saved preprocessing object
+[ 2025-06-15 18:22:15,227 ] 150 root - INFO - Saved target encoder
+[ 2025-06-15 18:22:15,230 ] 53 root - INFO - Preprocessor saved at: artifacts\preprocessor.pkl
+[ 2025-06-15 18:22:15,230 ] 54 root - INFO - Target encoder saved at: artifacts\target_encoder.pkl
+[ 2025-06-15 18:22:15,230 ] 29 root - INFO - Splitting training and testing input data
+[ 2025-06-15 18:22:15,233 ] 25 root - INFO - Training Logistic Regression
+[ 2025-06-15 18:22:24,673 ] 50 root - INFO - Logistic Regression - Accuracy: 0.7990, Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+[ 2025-06-15 18:22:24,673 ] 25 root - INFO - Training KNeighbors-Neighbors Classifier
+[ 2025-06-15 18:22:28,116 ] 50 root - INFO - KNeighbors-Neighbors Classifier - Accuracy: 0.7595, Precision: 0.1789, Recall: 0.0547, F1: 0.0838
+[ 2025-06-15 18:22:28,116 ] 25 root - INFO - Training DecisionTree
+[ 2025-06-15 18:22:29,511 ] 50 root - INFO - DecisionTree - Accuracy: 0.7900, Precision: 0.1250, Recall: 0.0075, F1: 0.0141
+[ 2025-06-15 18:22:29,511 ] 25 root - INFO - Training RandomForest
+[ 2025-06-15 18:22:38,775 ] 50 root - INFO - RandomForest - Accuracy: 0.7990, Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+[ 2025-06-15 18:22:38,775 ] 25 root - INFO - Training XGBoost
+[ 2025-06-15 18:22:41,431 ] 50 root - INFO - XGBoost - Accuracy: 0.7990, Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+[ 2025-06-15 18:22:41,432 ] 25 root - INFO - Training CatBoostClassifier
+[ 2025-06-15 18:23:18,167 ] 50 root - INFO - CatBoostClassifier - Accuracy: 0.7990, Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+[ 2025-06-15 18:23:18,168 ] 25 root - INFO - Training AdaBoostClassifier
+[ 2025-06-15 18:23:28,583 ] 50 root - INFO - AdaBoostClassifier - Accuracy: 0.7990, Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+[ 2025-06-15 18:23:28,584 ] 100 root - INFO - Best found model: Logistic Regression with accuracy: 0.799
+[ 2025-06-15 18:23:28,588 ] 111 root - INFO - Test set accuracy: 0.799

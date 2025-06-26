@@ -1,0 +1,24 @@
+[ 2025-06-15 15:13:16,686 ] 25 root - INFO - Entered the data ingestion method or component
+[ 2025-06-15 15:13:16,728 ] 28 root - INFO - Read the dataset as dataframe
+[ 2025-06-15 15:13:16,829 ] 32 root - INFO - Train Test Split initiated
+[ 2025-06-15 15:13:16,938 ] 37 root - INFO - Ingestion of data is completed
+[ 2025-06-15 15:13:16,997 ] 95 root - INFO - Read train and test data
+[ 2025-06-15 15:13:16,997 ] 98 root - INFO - Obtaining preprocessing object
+[ 2025-06-15 15:13:16,997 ] 64 root - INFO - Numerical columns scaling completed
+[ 2025-06-15 15:13:16,997 ] 65 root - INFO - Categorical columns encoding and scaling completed
+[ 2025-06-15 15:13:17,003 ] 124 root - INFO - Applying preprocessing object on training and testing datasets
+[ 2025-06-15 15:13:17,072 ] 129 root - INFO - Encoding target variable
+[ 2025-06-15 15:13:17,076 ] 143 root - INFO - Saved preprocessing object
+[ 2025-06-15 15:13:17,077 ] 150 root - INFO - Saved target encoder
+[ 2025-06-15 15:13:17,079 ] 53 root - INFO - Preprocessor saved at: artifacts\preprocessor.pkl
+[ 2025-06-15 15:13:17,080 ] 54 root - INFO - Target encoder saved at: artifacts\target_encoder.pkl
+[ 2025-06-15 15:13:17,080 ] 30 root - INFO - Splitting training and testing input data
+[ 2025-06-15 15:13:17,081 ] 27 root - INFO - Evaluating Logistic Regression
+[ 2025-06-15 15:13:22,203 ] 53 root - INFO - Logistic Regression - Accuracy: 0.7990, Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+[ 2025-06-15 15:13:22,205 ] 27 root - INFO - Evaluating K-Neighbors Classifier
+[ 2025-06-15 15:13:25,256 ] 53 root - INFO - K-Neighbors Classifier - Accuracy: 0.7835, Precision: 0.1395, Recall: 0.0149, F1: 0.0270
+[ 2025-06-15 15:13:25,256 ] 27 root - INFO - Evaluating Decision Tree
+[ 2025-06-15 15:13:25,975 ] 53 root - INFO - Decision Tree - Accuracy: 0.7900, Precision: 0.1250, Recall: 0.0075, F1: 0.0141
+[ 2025-06-15 15:13:25,975 ] 27 root - INFO - Evaluating Random Forest
+[ 2025-06-15 15:13:30,573 ] 53 root - INFO - Random Forest - Accuracy: 0.7990, Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+[ 2025-06-15 15:13:30,573 ] 27 root - INFO - Evaluating Support Vector Machine
